@@ -18,7 +18,7 @@ body{
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-p{
+.toppage p{
     color: white;
     letter-spacing: 10px;
     font-family: Helvetica, sans-serif;
@@ -69,23 +69,27 @@ p{
     padding: 30px;
 }
 
-.text{
+.lm p{
     font-family: Optima, sans-serif;
     font-size: 18;
     padding: 20px;
     color:black;
+    align-items: left;
 }
 
-.text img{
+.lm{
+    margin: auto;
+    width:1200px;
+    font-size:0;
+}
+
+.lm h1{
+    font-size: 24;
+    text-decoration: bold;
+    font-family: Optima, sans-serif;
     padding: 20px;
-    width: 200px;
-    height: 200px;
-    text-align: center;
-    filter: grayscale(50%);
+    color:black;
 }
-
-
-
 
 
 /* FOOTER */
@@ -108,6 +112,6 @@ footer a{
 }
 
 footer a:hover{
-    color:grey;
+    color:gray;
     transition-duration: 0.8s;
 }

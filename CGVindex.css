@@ -18,7 +18,7 @@ body{
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-p{
+.toppage p{
     color: white;
     letter-spacing: 10px;
     font-family: Helvetica, sans-serif;
@@ -69,24 +69,34 @@ p{
     padding: 30px;
 }
 
-.text{
+.cgv p{
     font-family: Optima, sans-serif;
     font-size: 18;
     padding: 20px;
     color:black;
+    align-items: left;
 }
 
-.text img{
+.cgv{
+    margin: auto;
+    width:1200px;
+}
+
+.cgv h1{
+    font-size: 24;
+    text-decoration: bold;
+    font-family: Optima, sans-serif;
     padding: 20px;
-    width: 200px;
-    height: 200px;
-    text-align: center;
-    filter: grayscale(50%);
+    color:black;
 }
 
-
-
-
+.cgv h2{
+    font-size: 20;
+    text-decoration: bold;
+    font-family: Optima, sans-serif;
+    padding: 20px;
+    color:black;
+}
 
 /* FOOTER */
 
