@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
   <div class="toppage">
     <div class="topnav"> 
       <p>BLACK FRIDAY SALE NOW</p> 
@@ -25,6 +24,64 @@
     </div>
   </div>
   <hr>
+
+  
+
+
+
+
+  <div class="msg-container">
+    <div id="slider">
+        <div class="msg-col">
+            <h1>DEALS</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus dui elit, nec dapibus nibh dictum eget. Praesent imperdiet arcu quis mi accumsan, et lobortis urna gravida. Suspendisse in metus sed purus bibendum ultricies. Nullam posuere mi eu ex imperdiet scelerisque.</p>
+            <a href="DEALS.html">Learn More</a>
+        </div>
+        <div class="msg-col">
+            <h1>BLACK FRIDAY</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus dui elit, nec dapibus nibh dictum eget. Praesent imperdiet arcu quis mi accumsan, et lobortis urna gravida. Suspendisse in metus sed purus bibendum ultricies. Nullam posuere mi eu ex imperdiet scelerisque.</p>
+            <a href="BlackFriday.html">Learn More</a>
+        </div>
+        <div class="msg-col">
+            <h1>ABOUT US</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus dui elit, nec dapibus nibh dictum eget. Praesent imperdiet arcu quis mi accumsan, et lobortis urna gravida. Suspendisse in metus sed purus bibendum ultricies. Nullam posuere mi eu ex imperdiet scelerisque.</p>
+            <a href="aboutus.html">Learn More</a>
+        </div>
+    </div>
+</div>
+</div>
+<div class="controller">
+<div id="line1"></div>
+<div id="line2"></div>
+<div id="line3"></div>
+<div id="active"></div>
+</div>
+<script>
+var slider = document.getElementById('slider');
+var active = document.getElementById('active');
+var line1 = document.getElementById('line1');
+var line2 = document.getElementById('line2');
+var line3 = document.getElementById('line3');
+
+line1.onclick = function(){
+    slider.style.transform = 'translateX(0)';
+    active.style.top = '0px';
+}
+line2.onclick = function(){
+    slider.style.transform = 'translateX(-33%)';
+    active.style.top = '100px';
+}
+line3.onclick = function(){
+    slider.style.transform = 'translateX(-66%)';
+    active.style.top = '200px';
+}
+</script>
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><hr>
+
   <div class="parallax">
     <div class="btn1">
       <button>
@@ -48,7 +105,6 @@
   </div>
 
   <hr>
-  
   <footer>
     <a href="cgv.html">General Conditions of Sale</a> │ <a href="cookies.html">Cookie Usage Policy </a> │ <a href="contactbar.html">Contact</a> │ <a href="legalmentions.html">Legal Mentions</a> <br><br>
     All rights reserved &copy; 2021 Team 9. 
